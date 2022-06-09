@@ -17,13 +17,9 @@ public class FizzBuzz {
 		
 		
 			
-		
-		
-		
+	
 		if (num >= 1 && num <= 200) {
 			flag = true;
-			
-		
 			
 		for (int i=1; i <= num; i++) {
 			if (i %3 ==0 && i % 5 ==0) {
@@ -39,7 +35,7 @@ public class FizzBuzz {
 			else {
 				System.out.println(i);
 			}
-			
+			scan.close();
 		}
 
 	}
